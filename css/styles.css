@@ -1,0 +1,51 @@
+/* Custom properties */
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px; /* 1rem = 10px */
+  font-family: "Open Sans", sans-serif;
+  background-color: wheat;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+
+.contenedor {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.form-control {
+  font-size: 16px;
+}
+
+.btn {
+  font-size: 16px;
+}
+
+.nav-bg {
+  background-color: gold;
+}
+
+.navegacion-principal {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navegacion-principal a {
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+  background-color: cornsilk;
+  color: rebeccapurple;
+}
